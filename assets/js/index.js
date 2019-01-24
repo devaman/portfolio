@@ -7,3 +7,9 @@ window.addEventListener('scroll',()=>{
         up.style.display='none';
     }
 })
+function loaderDisable(){
+    console.log("Loaded");
+    let loader = document.getElementById("load");
+    loader.style.display="none"
+    
+}
