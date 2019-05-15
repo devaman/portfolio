@@ -5,7 +5,7 @@
     box-sizing: border-box;
     transition: all 0.2s ease-in-out; 
 }
-html{
+body{
     scroll-behavior: smooth;
 }
 body{
@@ -226,6 +226,14 @@ section.header a.btn-orange{
 }
 #pro9 {
     background-image: url('/assets/img/project9.png');
+}
+#pro10 div.content-pro{
+    background-color: rgb(255, 68, 0);
+    box-shadow: 0px 1px 20px rgb(255, 60, 0);
+    color: rgb(255, 255, 255);
+}
+#pro10 {
+    background-image: url('/assets/img/project10.jpg');
 }
 section.skills .allskills{
     display: grid;
