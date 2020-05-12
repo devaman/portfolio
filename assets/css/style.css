@@ -118,7 +118,7 @@ section.projects div.project div.content-pro{
 }
 section.projects div.project {
     height: 100vh;
-    background-image: url('/assets/img/project1.png');
+    background-image: url('/assets/img/project1.jpg');
     background-attachment: fixed;
     background-position: 50% 80%;
     background-size: 70%;
@@ -169,7 +169,7 @@ section.header a.btn-orange{
     color: rgb(237, 237, 237);
 }
 #pro2 {
-    background-image: url('/assets/img/project2.png');
+    background-image: url('/assets/img/project2.jpg');
 }
 #pro3 div.content-pro{
     background-color: rgb(255, 0, 255);
@@ -177,7 +177,7 @@ section.header a.btn-orange{
     color: rgb(237, 237, 237);
 }
 #pro3 {
-    background-image: url('/assets/img/project3.png');
+    background-image: url('/assets/img/project3.jpg');
 }
 #pro4 div.content-pro{
     background-color: rgb(0, 255, 238);
@@ -185,7 +185,7 @@ section.header a.btn-orange{
     color: rgb(0, 60, 59);
 }
 #pro4 {
-    background-image: url('/assets/img/project4.png');
+    background-image: url('/assets/img/project4.jpg');
 }
 #pro5 div.content-pro{
     background-color: rgb(107, 179, 255);
@@ -193,7 +193,7 @@ section.header a.btn-orange{
     color: rgb(5, 59, 140);
 }
 #pro5 {
-    background-image: url('/assets/img/project5.png');
+    background-image: url('/assets/img/project5.jpg');
 }
 #pro6 div.content-pro{
     background-color: rgb(255, 204, 0);
@@ -201,7 +201,7 @@ section.header a.btn-orange{
     color: rgb(128, 98, 0);
 }
 #pro6 {
-    background-image: url('/assets/img/project6.png');
+    background-image: url('/assets/img/project6.jpg');
 }
 #pro7 div.content-pro{
     background-color: rgb(230, 0, 0);
@@ -209,7 +209,7 @@ section.header a.btn-orange{
     color: rgb(255, 255, 255);
 }
 #pro7 {
-    background-image: url('/assets/img/project7.png');
+    background-image: url('/assets/img/project7.jpg');
 }
 #pro8 div.content-pro{
     background-color: rgb(0, 117, 220);
@@ -225,7 +225,7 @@ section.header a.btn-orange{
     color: rgb(91, 88, 1);
 }
 #pro9 {
-    background-image: url('/assets/img/project9.png');
+    background-image: url('/assets/img/project9.jpg');
 }
 #pro10 div.content-pro{
     background-color: rgb(255, 68, 0);
