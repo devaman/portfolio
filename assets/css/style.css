@@ -235,6 +235,9 @@ section.header a.btn-orange{
 #pro10 {
     background-image: url('/assets/img/project10.jpg');
 }
+#pro11 {
+    background-image: url('/assets/img/project11.jpg');
+}
 section.skills .allskills{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(255px,1fr));
@@ -295,6 +298,9 @@ section.about .aboutme .about-content{
     }
     section.about .aboutme .about-content{
         width: 100%;
+    }
+    .project{
+        background-attachment: scroll !important;
     }
 }
 @media(max-width:992px){
