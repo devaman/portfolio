@@ -110,6 +110,13 @@ main section.header div p{
     main section.header div h1,main section.header div h2{
         font-size: 1.7rem;
     }
+    main section.header{
+        padding: 0px;
+        margin-top: -80px;
+    }
+    nav{
+        width: 94vw;
+    }
     main section.header div{
         margin-top: 0px;
         width: 100%;
