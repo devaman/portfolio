@@ -8,6 +8,15 @@
 body{
     scroll-behavior: smooth;
 }
+::-moz-selection { /* Code for Firefox */
+    color: rgb(0, 0, 0);
+    background: yellow;
+  }
+  
+::selection {
+    color: rgb(0, 0, 0);
+    background: yellow;
+  }
 body{
     display: flex;
     flex-flow: column;
