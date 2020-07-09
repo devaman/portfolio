@@ -46,15 +46,15 @@ main{
 }
 main section.header{
     height: 100vh;
-    margin-top:-20px;
+    margin-top:-30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url('/assets/img/banner.png');
+    /* background-image: url('/assets/img/banner.png');
     background-attachment: fixed;
     background-position: 80% 50%;
     background-size: 500px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 @media(max-width:992px){
     main section.header {
@@ -67,14 +67,27 @@ main section.header{
         }
 }
 main section.header div{
-    font-family: 'Sarabun',sans-serif;
-    font-size: 25px;
-    color: gray;
+    font-family: Apercu, "Source Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.5;
+   
+    width: 65%;
     margin-top: -50px;
 }
 main section.header div h1{
-    font-weight: 400;
-    color: black
+    font-weight: 300;
+    font-size: 2.3rem;
+}
+main section.header div b{
+    font-weight: 500;
+    color: #333;
+}
+main section.header div h2{
+    font-size: 2.5rem;
+    color: #444452;
+    font-weight: 300;
+    margin-bottom: 20px;
 }
 main section.header div p{
     color: rgba(255, 175, 37, 0.646);
@@ -85,9 +98,16 @@ main section.header div p{
         background-size: 100% !important;
         background-position: 50% 50% !important;
     } 
+    main section.header div h1,main section.header div h2{
+        font-size: 1.7rem;
+    }
     main section.header div{
         margin-top: 0px;
+        width: 100%;
+        font-size: 1.75rem;
+        padding: 5px 30px 5px 10px;
     }
+   
     
 }
 section > h1{
@@ -115,6 +135,12 @@ section.projects div.project div.content-pro{
     color: rgb(69, 69, 69);
     padding: 10px;
     font-family: 'Advent Pro', sans-serif;
+}
+section.projects div.project div.content-pro a:hover{
+    text-decoration: underline;
+    background-color: rgba(75, 75, 75, 0.18);
+    border-radius: 10px;
+    padding: 3px 5px;
 }
 section.projects div.project {
     height: 100vh;
