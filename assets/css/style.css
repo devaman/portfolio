@@ -275,10 +275,28 @@ section.header a.btn-orange{
     color: rgb(255, 255, 255);
 }
 #pro10 {
+   
     background-image: url('/assets/img/project10.jpg');
 }
+
 #pro11 {
     background-image: url('/assets/img/project11.jpg');
+}
+#pro12 {
+    background-image: url('/assets/img/project12.jpg');
+}
+#pro12 div.content-pro{
+    background-color: rgb(0, 94, 255);
+    box-shadow: 0px 1px 20px rgb(58, 130, 255);
+    color: white;
+}
+#pro13 {
+    background-image: url('/assets/img/project13.jpg');
+}
+#pro13 div.content-pro{
+    background-color: rgb(240, 0, 124);
+    box-shadow: 0px 1px 20px rgba(216, 0, 112, 0.646);
+    color: white;
 }
 section.skills .allskills{
     display: grid;
